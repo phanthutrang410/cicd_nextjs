@@ -26,6 +26,17 @@ npm run build
 npm run start
 ```
 
+### Docker
+```bash
+# Build image
+docker build -t hust-math-it:latest .
+
+# Run container (port 3000)
+docker run --rm -p 3000:3000 hust-math-it:latest
+
+# Mở http://localhost:3000
+```
+
 ### Cấu trúc thư mục
 ```
 app/            # Next.js App Router (layout, trang, styles)

@@ -41,7 +41,7 @@ export default function RootLayout({
           textAlign: 'center',
           color: '#6b7280'
         }}>
-          © {new Date().getFullYear()} Khoa Toán - Tin ứng dụng, ĐHBK Hà Nội
+          © {new Date().getFullYear()} Phan Thu Trang
         </footer>
       </body>
     </html>

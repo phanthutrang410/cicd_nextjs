@@ -23,13 +23,13 @@ jobs:
         run: npm ci
 
       - name: Pull Vercel Environment Information
-        run: npx vercel pull --yes --environment=production --token=${{ iU5j8Rayw3vxZnllFPwledvB }}
+        run: npx vercel pull --yes --environment=production --token=iU5j8Rayw3vxZnllFPwledvB
 
       - name: Build project with Vercel
-        run: npx vercel build --prod --token=${{ iU5j8Rayw3vxZnllFPwledvB }}
+        run: npx vercel build --prod --token= iU5j8Rayw3vxZnllFPwledvB 
 
       - name: Deploy to Vercel (Production)
-        run: npx vercel deploy --prebuilt --prod --token=${{ siU5j8Rayw3vxZnllFPwledvB }}
+        run: npx vercel deploy --prebuilt --prod --token=siU5j8Rayw3vxZnllFPwledvB
 
       # Optional: If your project is not already linked in Vercel, set these secrets too
       # env:
